@@ -6,4 +6,5 @@ I have a few goals and steps involved with this project:
 3. Employ a clustering algorithm on the exoplanets in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);
 4. Explore planet habitability using accepted facts from astronomical science, such as stellar luminosity and star-planet distance.
 
-![NASA Homepage](https://github.com/exoplanet-viz-cluster/nasa_exoplanet_homepage.png)
+
+![NASA Homepage](exoplanet-viz-cluster/nasa_exoplanet_homepage.png)
