@@ -1,24 +1,26 @@
 # ku_dark_background.mplstyle
 
-# Set black background default line colors to white.
+# Figure
+figure.dpi: 600
+figure.facecolor: black
+figure.edgecolor: black
+figure.format: svg
 
-lines.color: white
-patch.edgecolor: white
-
-text.color: white
-
+# Axes
+axes.labelsize: 12
+axes.titlesize: 15
+axes.linewidth: 2
 axes.facecolor: black
 axes.edgecolor: white
 axes.labelcolor: white
-axes.prop_cycle: cycler('color', ['8dd3c7', 'feffb3', 'bfbbd9', 'fa8174', '81b1d2', 'fdb462', 'b3de69', 'bc82bd', 'ccebc4', 'ffed6f'])
+axes.prop_cycle: cycler('color', ["#210535", "#430d4b", "#7b337d", "#c874b2", "#f5d5e0"])
 
-xtick.color: white
-ytick.color: white
-
+# Text and lines
+font.family: monospace
+text.color: white
+lines.color: white
+patch.edgecolor: white
 grid.color: white
-
-figure.facecolor: black
-figure.edgecolor: black
 
 # Boxplots
 boxplot.boxprops.color: white
@@ -26,3 +28,17 @@ boxplot.capprops.color: white
 boxplot.flierprops.color: white
 boxplot.flierprops.markeredgecolor: white
 boxplot.whiskerprops.color: white
+
+# Spines
+axes.spines.top: False
+axes.spines.left: True
+axes.spines.right: False
+axes.spines.bottom: True
+
+# Ticks
+xtick.color: white
+ytick.color: white
+xtick.major.width: 1.5
+xtick.minor.width: 1.5
+ytick.major.width: 1.5
+ytick.minor.width: 1.5
