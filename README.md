@@ -7,6 +7,4 @@ I have a few goals and steps involved with this project:
 4. Explore planet habitability using accepted facts from astronomical science, such as stellar luminosity and star-planet distance.
 
 
-exoplanet-viz-cluster/nasa_exoplanet_homepage.png
-
 ![NASA Homepage](https://github.com/ucheetah/exoplanet-viz-cluster/nasa_exoplanet_homepage.png)
