@@ -7,5 +7,5 @@ I have a few goals and steps involved with this project:
 4. Explore planet habitability using accepted facts from astronomical science, such as stellar luminosity and star-planet distance.
 
 <p align="center">
-  <img src="https://github.com/ucheetah/exoplanet-viz-cluster/blob/main/nasa_exoplanet_homepage.png" width = "300" height = "300" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/exoplanet-viz-cluster/blob/main/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
