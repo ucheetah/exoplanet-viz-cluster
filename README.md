@@ -1,4 +1,4 @@
-## Visualization and Clustering with NASA Exoplanet Data
+# Visualization and Clustering with NASA Exoplanet Data
 
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **`Planetary Systems`** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
 
