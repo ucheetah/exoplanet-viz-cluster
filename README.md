@@ -13,7 +13,7 @@ I have a few goals associated with this project:
   <li>Perform exploratory data analysis on select exoplanet features </li>
  <li> Visualize data using matplotlib and seaborn, making use of lesser-known or lesser-used methods such as stylesheets, color methods, table visualizations and 3D plots.</li>
   </li> them for analysis using <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong> ;</li>
-  <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
+  <li>Employ a k-means clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> for comparison to existing exoplanet classifications (gas giants, terrestrials);</li>
 </ol>
 
 <p align="center">
