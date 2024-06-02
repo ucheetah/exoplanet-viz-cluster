@@ -20,6 +20,6 @@ I have a few goals associated with this project:
   <img src="https://github.com/ucheetah/exoplanet-viz-cluster/blob/main/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
-
-Blog post: [Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Data
+Links:
+- **GitHub Pages Blog post**: [Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Data
 ](https://ucheetah.github.io/exo-viz-cluster/)
