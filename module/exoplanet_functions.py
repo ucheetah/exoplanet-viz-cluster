@@ -1,19 +1,5 @@
 # Exoplanet functions
 
-def plot_palette(list):
-    """Return visualization of palette with list of desired colors
-    """
-    fig, ax = plt.subplots(figsize=(6, 2), dpi=150)
-    for idx, color in enumerate(list):
-        ax.add_patch(plt.Rectangle((idx, 0), 1, 1, color=color))
-        ax.text(idx + 0.5, -0.1, list[idx], ha='center', va='top', fontsize=10)
-    ax.set_xlim(0, len(list))
-    ax.set_ylim(0, 1)
-    ax.set_xticks(range(len(list)))
-    ax.set_xticklabels([])
-    ax.set_yticks([])
-    plt.show()
-
 def load_data(nasa_url, local_path):
     """Load data taking in the TAP protocol URL for NASA and the local path
     """
