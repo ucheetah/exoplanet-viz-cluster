@@ -3,7 +3,7 @@
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **`Planetary Systems`** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass and distance.
 
 <ul>
-  <li> <strong>Languages and packages</strong>: one humble SQL query, Python (pandas, matplotlib, seaborn, scikit-learn)</li>
+  <li> <strong>Languages and packages</strong>: Python (pandas, matplotlib, seaborn, scikit-learn), SQL (one humble query)</li>
   <li> <strong>Techniques </strong>: data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning (clustering)</li>
 </ul>
 
