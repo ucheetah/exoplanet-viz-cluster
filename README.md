@@ -23,4 +23,4 @@ I have a few goals associated with this project:
 Links:
 - **GitHub Pages Blog post**: [Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Data
 ](https://ucheetah.github.io/exo-viz-cluster/)
-- **GitHub Repository**
+- **GitHub Repository**: [ucheetah - exoplanet-viz-cluster](https://github.com/ucheetah/exoplanet-viz-cluster/edit/main/README.md)
