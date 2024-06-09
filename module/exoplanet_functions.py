@@ -17,13 +17,6 @@ def rename_columns(data, column_renames):
     data = data.drop(columns = 'distance_pc')
     return data
 
-def clean_data(data):
-    """Perform listwise deletion and drop duplicate rows
-    """
-    data_cleaned = data.dropna()
-    data_cleaned = data_cleaned.drop_duplicates(subset='planet_name')
-    return data_cleaned
-
 def perform_kmeans(exoplanet_data_processed, kmeans_columns, n_clusters, n_init):
     """Perform Kmeans on processed data for planet radius and mass specifying clusters and inits
     """
@@ -36,10 +29,15 @@ def perform_kmeans(exoplanet_data_processed, kmeans_columns, n_clusters, n_init)
     centroids_original_scale = scaler.inverse_transform(centroids_scaled)
     return clusters, centroids_original_scale
 
-def return_describe_table(exoplanet_data_raw):
-    """Return description table for raw data
-    """
-    exo_describe = exoplanet_data_raw.describe()
-    exo_describe = exo_describe.T
-    exo_describe = exo_describe.round(0).astype(int)
-    return exo_describe
+def return_describe_table(exoplanet_data):
+  exo_describe = exoplanet_data.describe()
+  exo_describe_rounded = exo_describe.copy()
+  if 'planet_radius' in exo_describe.columns:
+    exo_describe_rounded['planet_radius'] = exo_describe['planet_radius'].round(1)
+  if 'planet_mass' in exo_describe.columns:
+    exo_describe_rounded['planet_mass'] = exo_describe['planet_mass'].round(1)
+  for column in exo_describe.columns:
+    if column not in ['planet_radius', 'planet_mass']:
+      exo_describe_rounded[column] = exo_describe[column].round(0).astype(int)
+  exo_describe_rounded = exo_describe_rounded.astype('str').T
+  return exo_describe_rounded
