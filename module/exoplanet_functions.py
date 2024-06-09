@@ -3,7 +3,7 @@
 def load_data(nasa_url, local_path):
     """Load data taking in the TAP protocol URL for NASA and the local path
     """
-    request_csv = requests.get(url)
+    request_csv = requests.get(nasa_url)
     with open(local_path, 'w') as f:
         f.write(request_csv.text)
     data = pd.read_csv(local_path)
