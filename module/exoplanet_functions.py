@@ -1,5 +1,21 @@
 # Exoplanet functions
 
+# Imports
+import pandas as pd
+import numpy as np
+import requests
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+import matplotlib.patches as mpatches
+import seaborn as sns
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+import exoplanet_functions
+from exoplanet_functions import load_data, rename_columns, perform_kmeans, return_describe_table
+
 def load_data(nasa_url, local_path):
     """Load data taking in the TAP protocol URL for NASA and the local path
     """
